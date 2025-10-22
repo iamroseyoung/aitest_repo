@@ -1,7 +1,7 @@
 spring:
   ai:
     openai:
-      api-key: 
+      api-key: # open ai api key
       model: gpt-4o-mini
       base-url: https://api.openai.com
 server:
