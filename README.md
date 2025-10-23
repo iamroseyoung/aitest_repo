@@ -2,14 +2,14 @@
 
 Spring AI를 활용한 텍스트 요약 서비스입니다. OpenAI GPT 모델을 사용하여 한국어 텍스트를 자동으로 요약합니다.
 
-## 🚀 주요 기능
+## 주요 기능
 
 - **AI 기반 텍스트 요약**: OpenAI GPT-4o-mini 모델을 사용한 고품질 텍스트 요약
 - **REST API**: HTTP POST 요청을 통한 간편한 API 사용
 - **프롬프트 템플릿**: 커스터마이징 가능한 요약 프롬프트
 - **Spring Boot**: 안정적이고 확장 가능한 Spring Boot 기반 아키텍처
 
-## 🛠 기술 스택
+## 기술 스택
 
 - **Java 17**
 - **Spring Boot 3.4.0**
@@ -17,13 +17,13 @@ Spring AI를 활용한 텍스트 요약 서비스입니다. OpenAI GPT 모델을
 - **OpenAI API**
 - **Gradle 9.1.0**
 
-## 📋 사전 요구사항
+## 사전 요구사항
 
 - Java 17 이상
 - OpenAI API 키
 - Gradle (또는 Gradle Wrapper)
 
-## 🚀 빠른 시작
+## Quick Start Guide
 
 ### 1. 프로젝트 클론 및 빌드
 
@@ -100,7 +100,7 @@ curl -X POST http://localhost:8080/api/summarize \
 Spring AI는 Spring Framework의 확장판으로, 인공지능 기능을 쉽게 통합할 수 있도록 도와주는 프레임워크입니다.
 ```
 
-## 🏗 프로젝트 구조
+## 프로젝트 구조
 
 ```
 src/
@@ -120,7 +120,7 @@ src/
 │           └── summarize_prompt.txt           # 요약 프롬프트 템플릿
 ```
 
-## ⚙️ 설정
+## 설정
 
 ### application.yml
 
@@ -145,7 +145,7 @@ server:
 {input}
 ```
 
-## 🔧 개발
+## 개발
 
 ### 빌드
 
@@ -165,11 +165,11 @@ server:
 ./gradlew bootRun
 ```
 
-## 📝 라이선스
+## 라이선스
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다.
 
-## 🤝 기여
+## 기여
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -177,10 +177,10 @@ server:
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 지원
+## Support
 
 문제가 발생하거나 질문이 있으시면 이슈를 생성해 주세요.
 
 ---
 
-**Spring AI Text Summarizer** - AI 기반 텍스트 요약을 위한 Spring Boot 애플리케이션
+**AI Text Summarizer** - AI 기반 텍스트 요약을 위한 Spring Boot / Spring AI 애플리케이션
