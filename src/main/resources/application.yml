@@ -1,8 +1,8 @@
 spring:
   ai:
-    openai:
-      api-key: # open ai api key
+    openai: 
+      api-key: ${OPENAI_API_KEY}
       model: gpt-4o-mini
       base-url: https://api.openai.com
 server:
-  port: 8080
+  port: 8081
