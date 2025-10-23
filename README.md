@@ -1,4 +1,4 @@
-# Spring AI Text Summarizer
+# Text Summarizer
 
 Spring AI를 활용한 텍스트 요약 서비스입니다. OpenAI GPT 모델을 사용하여 한국어 텍스트를 자동으로 요약합니다.
 
